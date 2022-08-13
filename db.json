@@ -1,0 +1,10 @@
+{
+  "tasks": [
+    { "id": 1, "origin": "Bogotá", "destination": "Cali" },
+    { "id": 2, "origin": "Medellín","destination": "Cartagena"}
+  ],
+  "services": [
+    { "id": 1, "driver": "Roberto", "tasks": [ 1, 2 ] },
+    { "id": 2, "driver": "Carlos", "tasks": [2] }
+  ]
+}
